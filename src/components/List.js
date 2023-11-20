@@ -2,7 +2,7 @@ import Character from './Character';
 function List() {
     return ( 
         <div>
-     <h2>Characters name</h2>
+     <h2>Characters name is vasu </h2>
      <Character/>
  </div>
     
