@@ -1,12 +1,17 @@
-import Character from './Character';
-function List() {
-    return ( 
-        <div>
-     <h2>Characters  </h2>
-     <Character/>
- </div>
-    
-    );
-  }
+import Card from './Card';
+
+const List = ({ data }) => (
+    <div className="row">
+      {data.map((item, index) => (
+        <Card key={index} {...item} />
+      ))}
+    </div>
+  );
+
   export default List;
+
+
+
+
+
   
